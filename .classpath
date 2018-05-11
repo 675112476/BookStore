@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.generic_6.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/c3p0-0.9.5.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-dbutils-1.6.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mchange-commons-java-0.2.10.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mysql-connector-java-5.1.26-bin.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-fileupload-1.3.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/ecj-4.4.2.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/tomcat7-websocket.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="D:/Program Files/apache-tomcat-7.0.85/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="D:/EclipseWorkspace/jar/mysql-connector-java-5.1.45-bin.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
