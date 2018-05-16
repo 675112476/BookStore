@@ -8,7 +8,7 @@
   
   <body style="text-align:center;">
     <div id="content" style="margin:0 auto;width:840px;">
-    	<div id="category" style="float:left; width:200px; border:1px solid red; text-align:left; height:300px;"> 
+    	<div id="category" style="float:left; width:200px; border:1px solid black; text-align:left; height:300px;"> 
     		分类列表：
     		<ul>		
 	    		<c:forEach var="category" items="${categories }">
