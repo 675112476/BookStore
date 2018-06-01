@@ -35,12 +35,14 @@ public class RegisterServlet extends HttpServlet {
 			BusinessServiceImpl service = new BusinessServiceImpl();
 			service.registerUser(user);
 			request.setAttribute("message", "注册成功");
-			request.getRequestDispatcher("/message.jsp").forward(request, response);//这里要跳转到首页，并且显示欢迎您，，，待修改
+			response.sendRedirect("../index.jsp");
+//			request.getRequestDispatcher("/message.jsp").forward(request, response);//这里要跳转到首页，并且显示欢迎您，，，待修改
 			
 		}catch(Exception e){
 			e.printStackTrace();
 			request.setAttribute("message", "注册失败");
-			request.getRequestDispatcher("/message.jsp").forward(request, response);
+			response.sendRedirect("../index.jsp");
+//			request.getRequestDispatcher("/message.jsp").forward(request, response);
 		}
 	}
 

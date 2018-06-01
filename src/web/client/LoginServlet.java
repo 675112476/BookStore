@@ -20,11 +20,10 @@ public class LoginServlet extends HttpServlet {
 		User user = service.userLogin(username, password);
 		if(user == null){
 			request.setAttribute("message", "用户名和密码不对");
-			request.getRequestDispatcher("/message.jsp").forward(request, response);
 			return;
 		}
 		request.getSession().setAttribute("user", user);
-		request.getRequestDispatcher("/client/head.jsp").forward(request, response);
+		response.sendRedirect("IndexServlet?method=getAll");
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response)

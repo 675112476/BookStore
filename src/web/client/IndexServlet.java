@@ -17,7 +17,9 @@ public class IndexServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		String method = request.getParameter("method");
-		if(method.equalsIgnoreCase("getAll")){
+		if(method==null){
+			getAll(request,response);
+		}else if(method.equalsIgnoreCase("getAll")){
 			getAll(request, response);
 		}else if(method.equalsIgnoreCase("listBookWithCategory")){
 			listBookWithCategory(request, response);
@@ -33,7 +35,7 @@ public class IndexServlet extends HttpServlet {
 		Page page = service.getBookPageData(pagenum);
 		request.setAttribute("page", page);
 		
-		request.getRequestDispatcher("/client/body.jsp").forward(request, response);
+		request.getRequestDispatcher("/index.jsp").forward(request, response);
 	}
 	
 	public void listBookWithCategory(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
@@ -44,7 +46,7 @@ public class IndexServlet extends HttpServlet {
 		String pagenum = request.getParameter("pagenum");
 		Page page = service.getBookPageData(pagenum, category_id);
 		request.setAttribute("page", page);
-		request.getRequestDispatcher("/client/body.jsp").forward(request, response);
+		request.getRequestDispatcher("/index.jsp").forward(request, response);
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response)

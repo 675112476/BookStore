@@ -6,7 +6,7 @@
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
 		<property name="jdbcUrl">jdbc:mysql://localhost:3306/bookstore</property>
 		<property name="user">root</property>
-		<property name="password">zjzzs2002</property>
+		<property name="password">root</property>
 		
 		<property name="acquireIncrement">5</property>
 		<property name="initialPoolSize">10</property>
@@ -21,7 +21,7 @@
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
 		<property name="jdbcUrl">jdbc:mysql://localhost:3306/bookstore</property>
 		<property name="user">root</property>
-		<property name="password">zjzzs2002</property>
+		<property name="password">root</property>
 		
 		<property name="acquireIncrement">5</property>
 		<property name="initialPoolSize">10</property>

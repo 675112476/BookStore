@@ -12,7 +12,7 @@ public class LoginOutServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		request.getSession().invalidate();//×¢Ïú
-		request.getRequestDispatcher("/client/head.jsp").forward(request, response);
+		response.sendRedirect("IndexServlet?method=getAll");
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
