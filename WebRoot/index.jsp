@@ -141,13 +141,14 @@
 					<c:forEach var="book" items="${page.list }">
 						<div class="col-xs-6 col-lg-4">
 							<div class="thumbnail">
-								<img style="width: 150px; height: 200px"
+								<img style="width: 200px; height: 200px"
 									src="${pageContext.request.contextPath }/images/${book.image}">
 								<div class="caption">
 									<ul class="list-group">
-										<li class="list-group-item">${book.name }</li>
+										<li class="list-group-item">书名：${book.name }</li>
 										<li class="list-group-item">作者：${book.author }</li>
-										<li class="list-group-item">售价：${book.price }</li>
+										<li class="list-group-item">售价：¥${book.price }</li>
+										<li class="list-group-item">${book.description }</li>
 									</ul>
 									<p align="center">
 										<a
